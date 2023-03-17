@@ -1,5 +1,12 @@
 # 풀이
 
+**Runtime Beats 54%**
+![1-runtime](https://user-images.githubusercontent.com/64972038/225942652-98e1bef8-a7fb-456b-adbc-41111e065c46.svg)
+
+**Memory Beats 81.16%**
+![1-memory](https://user-images.githubusercontent.com/64972038/225942691-90eeeaac-1f1c-4882-bf23-9ac44f0540e1.svg)
+
+
 ## 문제 이해하기
 
 ### INPUT
@@ -47,3 +54,4 @@ var twoSum = function (nums, target) {
 제 1 피연산자의 인덱스의 앞 요소를 잡고 순환하면 됩니다.
 
 그러면 요소를 중복으로 검사하지않고, 같은 요소를 잡을 걱정이 없습니다.
+
