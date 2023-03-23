@@ -22,7 +22,6 @@ Input으로 들어온 l1, l2의 value를 더해주고 더해준 값을 역순으
 ## 문제 풀이
 ~~~javascript
 
-**
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
