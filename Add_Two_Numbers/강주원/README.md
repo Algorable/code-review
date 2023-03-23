@@ -1,11 +1,10 @@
 # 풀이
 
 **Runtime Beats 66.75%**  
-![Runtime](svg)
+![2_RuntimeBeats](https://user-images.githubusercontent.com/102473964/227133188-e9ee9483-4856-42e3-a95b-1ae07ef4773e.svg)
 
 **Memory Beats 93.14%**  
-![Memory](svg)
-
+![2_MemoryBeats](https://user-images.githubusercontent.com/102473964/227133321-73f200d1-c183-44a3-80f7-eee55fa1112b.svg)
 
 ## 문제 이해하기
 
