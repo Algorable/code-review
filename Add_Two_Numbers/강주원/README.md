@@ -73,14 +73,14 @@ const addTwoNumbers = function (l1, l2) {
 ~~~
 
 
-- 1. 입력된 l1, l2 의 Node마다 value를 문자형으로 추출
+1. 입력된 l1, l2 의 Node마다 value를 문자형으로 추출
   - l1, l2는 ListNode 객체로 단일 연결 리스트
   - 단일 연결 리스트는 마지막 노드의 포인터가 null을 가짐
   - 포인터가 null 값을 가지는 Node까지 재귀방식으로 접근하여 가져옴
 
-- 2. 문자형으로 추출한 값들을 정수형으로 전환하여 더하기
+2. 문자형으로 추출한 값들을 정수형으로 전환하여 더하기
 
-- 3. 마지막 Node부터 만들어 역순의 Node를 가지는 ListNode 리턴
+3. 마지막 Node부터 만들어 역순의 Node를 가지는 ListNode 리턴
   - i = 0 Node 만드는 경우에는 포인터를 null로 구성한다
   - Node prevNode에 담아준다.
   - i > 0 Node 만들 때 부터는 prevNode의 포인터에 넣어준다.
