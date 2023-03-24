@@ -1,9 +1,11 @@
 # 풀이
 
 **Runtime Beats 80.96%**  
+![runtime2](https://user-images.githubusercontent.com/64972038/227514523-c505c525-97b0-44eb-8a01-c19f4f915d17.svg)
 
 
 **Memory Beats 76.12%**  
+![memory2](https://user-images.githubusercontent.com/64972038/227514535-77cfa8d4-c60e-46e2-b7bc-93b282b7205c.svg)
 
 
 
