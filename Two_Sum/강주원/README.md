@@ -1,10 +1,12 @@
 # 풀이
 
 **Runtime Beats 20.22%**  
-![1_RuntimeBeats]
+![Two Sum_Runtime_beats](https://user-images.githubusercontent.com/102473964/227411247-dea94281-2221-4446-ba36-1ef34c2ccca6.svg)
+
 
 **Memory Beats 75.10%**  
-![1_MemoryBeats]
+![Two Sum_Memory_beats](https://user-images.githubusercontent.com/102473964/227411266-a890bd8a-4ced-4fb8-b920-abbc55388328.svg)
+
 ## 문제 이해하기
 
 - 정수로 구성된 배열을 순회하여 element 두 개의 합이 target과 같은 경우 해당 element들의 index 값을 배열로 반환합니다.
