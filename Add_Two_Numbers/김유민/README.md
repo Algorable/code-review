@@ -70,4 +70,4 @@ var addTwoNumbers = function (l1, l2) {
 
 ~~~
 
-LinkedList 문제로 `l1` 리스트와 `l2` 리스트의 `value`를 뒤집은 값을 더해 다시 뒤집은 형태로 담으면 되는 단순한 로직의 문제입니다!
+LinkedList 문제로 `l1` 리스트와 `l2` 리스트의 `value`를 뒤집은 값을 더해 다시 뒤집은 형태로 담으면 되는 단순한 로직의 문제입니다.
