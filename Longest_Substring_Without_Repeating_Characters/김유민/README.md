@@ -1,10 +1,14 @@
 # 풀이
 
-**Runtime Beats 97.95%**  
-![runtime](https://user-images.githubusercontent.com/55650732/228427830-d20978c2-add1-4efb-8db8-1b3e67004ae8.svg)
+<!-- **Runtime Beats 97.95%**   -->
+<!-- ![runtime](https://user-images.githubusercontent.com/55650732/228427830-d20978c2-add1-4efb-8db8-1b3e67004ae8.svg) -->
+**Runtime Beats 93.92%**  
+![runtime1](https://user-images.githubusercontent.com/55650732/230003803-133842f3-cbf4-48fd-a648-16bbb0643a45.svg)
 
-**Memory Beats 28%**  
-![memory](https://user-images.githubusercontent.com/55650732/228427841-259f3020-b62d-4dd6-a3bd-6f5bc4719ba2.svg)
+<!-- **Memory Beats 28%**   -->
+<!-- ![memory](https://user-images.githubusercontent.com/55650732/228427841-259f3020-b62d-4dd6-a3bd-6f5bc4719ba2.svg) -->
+**Memory Beats 84.80%**  
+![memory1](https://user-images.githubusercontent.com/55650732/230003788-ce81fff0-fad2-491f-9a64-9264e5bd0997.svg)
 
 
 ## 문제 이해하기
@@ -19,7 +23,7 @@
 **문제 요약**
 
 ## 문제 풀이
-~~~javascript
+<!-- ~~~javascript
 
 /**
  * @param {string} s
@@ -47,11 +51,39 @@ var lengthOfLongestSubstring = function (s) {
   return maxLength;
 };
 
+~~~ -->
+
+~~~javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    let longest = 0;
+    let current = "";
+    
+    for (let i = 0 ; i < s.length ; i++) {
+        current = current.substring(current.indexOf(s[i]) + 1)        
+        current += s[i];
+        
+        if (current.length > longest) {
+            longest = current.length;
+        }
+    }
+    
+    return longest;
+};
+
 ~~~
 
 **풀이 방법 기입**
 
-문자를 담을 `bucket` 배열을 만들어서 그 안에 하나씩 추가하게 하였습니다.
+<!-- 문자를 담을 `bucket` 배열을 만들어서 그 안에 하나씩 추가하게 하였습니다.
 `bucket` 안에 문자가 있을 때, 그 문자의 인덱스를 찾아 그 다음부터 끝까지 잘라서 `bucket`에 다시 넣어주고 그 문자를 push 했습니다.
 만약 포함이 안 되어 있다면 그냥 push 했습니다.
-그리고 최대길이를 갱신해주면 됩니다.
+그리고 최대길이를 갱신해주면 됩니다. -->
+
+`substring`을 이용하면 `문자열`을 자를 수 있습니다. <br>
+`indexof`를 이용해서 해당 문자의 `index`를 찾을 수 있습니다. <br>
+만약 문자가 없다면 `-1`이 반환되어서 `0`부터 끝까지 그대로이고, 문자가 있다면 그 다음부터 자르도록 합니다. <br>
+해당 문자를 더해주고 제일 긴 길이를 갱신합니다.

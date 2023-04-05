@@ -3,6 +3,23 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function (s) {
+  let longest = 0;
+  let current = "";
+
+  for (let i = 0; i < s.length; i++) {
+    current = current.substring(current.indexOf(s[i]) + 1);
+    current += s[i];
+
+    if (current.length > longest) {
+      longest = current.length;
+    }
+  }
+
+  return longest;
+};
+
+/*
+var lengthOfLongestSubstring = function (s) {
   let bucket = []; // 문자 저장
   let maxLength = 0;
 
@@ -23,3 +40,4 @@ var lengthOfLongestSubstring = function (s) {
 
   return maxLength;
 };
+*/
