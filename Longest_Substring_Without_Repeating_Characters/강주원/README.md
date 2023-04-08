@@ -1,8 +1,10 @@
 # 풀이
 
 **Runtime Beats 26.3%**  
+![runtimeBeats](https://user-images.githubusercontent.com/102473964/230701873-c53d11c1-07d5-421f-9855-43f87cf46843.svg)
 
 **Memory Beats 41.53%**  
+![memoryBeats](https://user-images.githubusercontent.com/102473964/230701914-05a789a1-4d49-4e3d-875b-872dd1c4ae7d.svg)
 
 
 ## 문제 이해하기
