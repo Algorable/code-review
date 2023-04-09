@@ -1,10 +1,12 @@
 # 풀이
 
 **Runtime Beats ~%**  
-![runtime]()
+
+![Runtime_1](https://user-images.githubusercontent.com/73512015/230758361-915c230e-eff7-4dfe-a6ac-b255877b3d3f.svg)
 
 **Memory Beats ~%**  
-![memory]()
+
+![Memory_1](https://user-images.githubusercontent.com/73512015/230758353-0eccbfd7-6ec1-4200-8726-4160ba6cdbe6.svg)
 
 
 ## 문제 이해하기
