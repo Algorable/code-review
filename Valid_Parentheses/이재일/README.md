@@ -1,6 +1,7 @@
 # 풀이
 
 **Runtime Beats 20.22%**  
+
 **Memory Beats 75.10%**  
 
 ## 문제 이해하기
