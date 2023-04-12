@@ -1,9 +1,9 @@
 # 풀이
 
 **Runtime Beats ~%**  
-
+![Valid](https://user-images.githubusercontent.com/121006387/231446382-b551eb8b-9686-4b9c-964f-7299552c4c9d.svg)
 **Memory Beats ~%**  
-
+![Valid2](https://user-images.githubusercontent.com/121006387/231446406-78b53ebb-bb66-48f3-935b-41740e2ab1f6.svg)
 
 ## 문제 이해하기
 
