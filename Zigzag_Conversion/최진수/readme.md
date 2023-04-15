@@ -1,9 +1,12 @@
 # 풀이
 
-![6_runtime](https://user-images.githubusercontent.com/109533678/232199814-14ee98b3-5e19-460a-b8ea-ac0856a371e6.svg)
+**Runtime Beats 47.93%**
 
+![6_runtime](https://user-images.githubusercontent.com/109533678/232200779-e907448b-3abb-4cd7-9c88-31d361729610.svg)
 
-![6_memory](https://user-images.githubusercontent.com/109533678/232199847-f14fe1cd-45c0-480c-99f4-d6bfcc43c183.svg)
+**Memory Beats 74.72%**
+
+![6_memory](https://user-images.githubusercontent.com/109533678/232200788-ac4535bb-b34d-445b-91f7-53f1751a580f.svg)
 
 
 
@@ -42,8 +45,8 @@ var convert = function(s, numRows) {
 };
 
 ~~~
-
-입력받은 numRows만큼의 빈 배열을 생성한다
-문자열 s 를 i번째 배열에 집어넣는다
-만약 첫번째나 마지막배열에 다다르면 다시 반대방향으로 움직이며 집어넣는다
-모든 배열을 하나로 
+ 
+1. 입력받은 numRows만큼의 빈 배열을 생성한다.
+2. 문자열 s 를 i번째 배열에 집어넣는다.
+3. 만약 첫번째나 마지막배열에 다다르면 다시 반대방향으로 움직이며 집어넣는다.
+4. 모든 배열을 하나로.
