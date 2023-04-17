@@ -1,48 +1,33 @@
-
-//   Definition for singly-linked list.
-function ListNode(val, next) {
-    this.val = (val===undefined ? 0 : val)
-    this.next = (next===undefined ? null : next)
-}
- 
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
-    let fir = nodeToNum(l1);
-    let sec = nodeToNum(l2);
-    let sum = fir + sec;
-    return numToNode(sum);
-    
-};
-var nodeToNum = function(headNode) {
-    let node = headNode;
-    let toNum = 0;
-    let i = 0;
-    while (node != null) {
-        toNum += (node.val * (10 ** i));
-        node = node.next;
-        i++
-    }
-    return toNum;
-}
+    let sum = 0;
+    let current = new ListNode(0);
+    let result = current;
 
-var numToNode = function(num) {
-    let node = new ListNode(num % 10);
-    let head = node;
-    if(num == 0){
-        return 0;
-    }
-    while (true){
-        num = num/10;
-        const newNode = new ListNode(num % 10);
-        node.next = newNode;
-        node = newNode;
-        if (num == 0){
-            break;
+    while(l1 || l2) {
+
+        if(l1) {
+            sum += l1.val;
+            l1 = l1.next;
         }
+        if(l2) {
+            sum += l2.val;
+            l2 = l2.next;
+        }
+
+        current.next = new ListNode(sum % 10);
+        current = current.next;
+
+        sum = sum > 9 ? 1 : 0;
     }
-    return head;
-}
+
+    if(sum) {
+        current.next = new ListNode(sum);
+    }
+
+    return result.next;
+};
