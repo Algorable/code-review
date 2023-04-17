@@ -1,9 +1,9 @@
 # 풀이
 
-**Runtime Beats ~%**  
+**Runtime Beats 97.89%**  
 ![2_runtime](https://user-images.githubusercontent.com/73512015/232475052-fddb2288-0f75-47cf-b382-9a427cbf960b.svg)
 
-**Memory Beats ~%**  
+**Memory Beats 79.68%**  
 ![2_memory](https://user-images.githubusercontent.com/73512015/232475081-8d04da1d-ec75-4c16-99b0-af235cdf7712.svg)
 
 ## 문제 이해하기
