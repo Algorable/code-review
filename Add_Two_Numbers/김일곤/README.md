@@ -1,12 +1,10 @@
 # 풀이
 
 **Runtime Beats ~%**  
-
- <svg version="1.1" class="highcharts-root" style="font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;font-size:12px;cursor:pointer;" xmlns="http://www.w3.org/2000/svg" width="713" height="170" viewBox="0 0 713 170">
+![2_runtime](https://user-images.githubusercontent.com/73512015/232475052-fddb2288-0f75-47cf-b382-9a427cbf960b.svg)
 
 **Memory Beats ~%**  
-
- <svg version="1.1" class="highcharts-root" style="font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;font-size:12px;cursor:pointer;" xmlns="http://www.w3.org/2000/svg" width="696" height="170" viewBox="0 0 696 170">…</svg>
+![2_memory](https://user-images.githubusercontent.com/73512015/232475081-8d04da1d-ec75-4c16-99b0-af235cdf7712.svg)
 
 ## 문제 이해하기
 
