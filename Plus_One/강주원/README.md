@@ -1,10 +1,12 @@
 # 풀이
 
-**Runtime Beats **  
-![runtimeBeats](https://user-images.githubusercontent.com/102473964/230701873-c53d11c1-07d5-421f-9855-43f87cf46843.svg)
+**Runtime Beats 5.64%**  
+![66_runtime](https://user-images.githubusercontent.com/102473964/234267460-1d90c76d-bf9d-4de5-ba67-441265d9bdeb.svg)
 
-**Memory Beats **  
-![memoryBeats](https://user-images.githubusercontent.com/102473964/230701914-05a789a1-4d49-4e3d-875b-872dd1c4ae7d.svg)
+
+**Memory Beats 28.58$**  
+![66_memory](https://user-images.githubusercontent.com/102473964/234267715-13111aad-76a5-4031-9655-366c5b970415.svg)
+
 
 
 ## 문제 이해하기
