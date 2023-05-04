@@ -2,7 +2,7 @@
 
 ### **🚩문제 주소**
 
-[https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
+[https://leetcode.com/problems/assign-cookies/](https://leetcode.com/problems/assign-cookies/)
 
 ### 문제 설명
 
