@@ -2,7 +2,12 @@
 
 **Runtime Beats 80.91%**  
 
+![7_run](https://user-images.githubusercontent.com/102473964/236682478-07c00e38-4b1f-4ab7-8c62-a8417b35a7b3.svg)
+
+
 **Memory Beats 11.21%**
+
+![7_memory](https://user-images.githubusercontent.com/102473964/236682473-cd5ebc25-9a0d-4320-b605-ee18d265af0a.svg)
 
 
 ## 문제 이해하기
