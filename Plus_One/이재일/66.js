@@ -16,6 +16,5 @@ var plusOne = function(digits) {
   return newArr;
 };
 
-// 시도
-console.log(plusOne([9]));
+
 

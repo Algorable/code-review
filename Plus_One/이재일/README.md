@@ -37,8 +37,7 @@ var plusOne = function(digits) {
     newArr[i] = Number(toStr[i]);
   }
 
-  /* 리턴 */
-  return newArr;
+  
 };
 
 // 시도
