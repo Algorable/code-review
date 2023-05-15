@@ -1,10 +1,10 @@
 # 풀이
 
-**Runtime Beats 18.13%**  
+**Runtime Beats 92.92%**  
+![runtime](https://github.com/devYuMinKim/devYuMinKim/assets/55650732/af358db0-5e29-4aa7-a839-e4a31c9b92f0)
 
-
-**Memory Beats 58.41%**
-
+**Memory Beats 65.17%**
+![memory](https://github.com/devYuMinKim/devYuMinKim/assets/55650732/2973e624-0c32-4525-8081-077b7c27eb04)
 
 ## 문제 이해하기
 
